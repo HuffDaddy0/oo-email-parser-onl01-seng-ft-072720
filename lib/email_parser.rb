@@ -11,7 +11,7 @@ attr_accessor :email
 
 def parse
 split1 = @email.split(",")
-split1.map {|email| email.strip}
+split1.map {|email| email.chomp}
 end
 
 
