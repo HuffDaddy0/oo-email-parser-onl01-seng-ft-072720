@@ -11,7 +11,6 @@ attr_accessor :email
 
 def parse
 split1 = address_string.split(",").flatten
-split1.split(" ")
 end
 
 
