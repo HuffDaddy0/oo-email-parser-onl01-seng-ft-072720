@@ -10,7 +10,7 @@ attr_accessor :email
   end
 
 def parse
-split1 = address_string.split(",").flatten
+split1 = address_string.split(",").flatten.gsub(" ", ", ")
 end
 
 
