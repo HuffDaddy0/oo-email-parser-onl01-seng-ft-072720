@@ -9,7 +9,9 @@ attr_accessor :email
 
   end
 
+def parse
 
+end
 
 
 
