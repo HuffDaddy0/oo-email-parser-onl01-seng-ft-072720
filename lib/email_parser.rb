@@ -10,7 +10,7 @@ attr_accessor :email
   end
 
 def parse
-split1 = @email.split(",").flatten.gsub(" ", ", ")
+split1 = @email.split(",").flatten
 end
 
 
