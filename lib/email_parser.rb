@@ -10,8 +10,8 @@ attr_accessor :email
   end
 
 def parse
-split1 = @email.split(",")
-split1.map {|email| email.gsub(" ","")}
+split1 = @email.split(", ")
+split1.map {|email| email}
 end
 
 
